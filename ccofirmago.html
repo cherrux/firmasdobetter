@@ -1,0 +1,263 @@
+  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma Romy Do Better</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <style media="screen" type="text/css">
+        html,h1,h2,h3,h4,h5,p, body {
+        margin: 0;
+        padding: 0;
+        }
+        ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+/*         fuentes textos  */
+        h1{
+            font-family: 'Bebas Neue', cursive;
+            font-weight: 100;
+            font-style: normal;
+            color:black;
+        }
+        h2{
+            font-family: 'Bebas Neue', cursive;
+            font-weight:400;
+            font-style: normal;
+            font-size: 23px;
+            letter-spacing: 2px;
+            color:black;
+        }
+        h3{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 13px;
+            padding: 0%;
+            margin: 0%;
+            color:black;
+        }
+        h4{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 12px;
+            color:black;
+        }
+        h5{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 10px;
+            color:black;
+
+        }
+        .barra{
+            width:100%;
+            border: 2px solid black;
+        }
+/*         bloques  */
+        .firma{
+            display : flex;
+            box-sizing: border-box;
+            width: 480px;
+            height: 160px;
+            margin: 8px;
+        }
+        .firma_logo{
+            display : flex;
+            box-sizing: border-box;
+            width: 160px;
+            height: 160px;
+
+
+        }
+        .firma_logo_empresa_imagen{
+            box-sizing: border-box;
+            width: 152px;
+            height: 160px;
+
+        }
+
+        .firma_empleado{
+
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 328px;
+            height: 160px;
+        }
+        .firma_empleado-nombre{
+
+            display: flex;
+            box-sizing: border-box;
+            width: 328px;
+            height: 80px;
+            align-items: center;
+            text-align: left;
+        }
+        .firma_empleado-nombre_logo{
+
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+
+            width: 55px;
+            height: 80px;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2px;
+        }
+                .firma_logo_nombre_imagen{
+                    width: 49px;
+                    width: 49px;
+
+                }
+        .firma_empleado-nombre_persona{
+
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 273px;
+            height: 80px;
+            padding: 15px 15px 15px 5px;
+            text-align: left;
+            }
+        .firma_empleado-contacto{
+            display: flex;
+            width: 328px;
+            height: 80px;
+        }
+        .firma_empleado-contacto_1{
+            width: 47%;
+            height: 100%;
+            
+        }
+            .firma_empleado-contacto_icono{
+                        width: 19%;
+                        height: 55%;
+                        padding: 0%;
+                        margin: 0%;
+                    }
+             .firma_empleado-contacto_icono_2{
+                        display: flex;
+                        height: 50%;
+                        margin: 0%;
+                        align-items: flex-end;
+                    }
+            .logo-text-1{
+            display: flex;
+            height: 50%;
+            align-items: center;
+            text-align: left;
+            }   
+            .logo-text-2{
+                display: flex;
+                height: 48%;
+                align-items: center;
+                text-align: left;
+                padding-top: 1%;
+            }
+            .firma_empleado-contacto_2{
+                width: 40%;
+                height: 100%;
+            }
+            .logo-text-3{
+                        display: flex;
+                        height: 50%;
+                        text-align: center;
+                        padding-left: 19%;
+                        }
+
+            .firma_empleado-redes{
+            display: block;
+            box-sizing: border-box;
+            flex-direction: column;
+            width: 13%;
+            height: 80px;
+            align-items: flex-end;
+            justify-content: center;
+            }
+                .firma_empleado-contacto_icono_2{
+                    height: 20px;
+                    margin: 6.5px;
+                }
+                
+</style>
+</head>
+<body>
+    <firma class="firma">
+        <div class="firma_logo" >
+            <a title=Dobetter.cl href="http://www.dobetter.cl/" target="_blank">
+            <img src="./assets/images/logo.png" class="firma_logo_empresa_imagen" >
+            </a>
+        </div>
+        <div class="firma_empleado">
+            <div class="firma_empleado-nombre">
+                <div class="firma_empleado-nombre_logo">
+                <img src="https://dobetter.cl/firmas/images/romi2019go_01.jpg" class="firma_logo_nombre_imagen">
+                </div>
+                <div class="firma_empleado-nombre_persona">
+                    <h2 >CENTRO CONTROL DE OPERACIONES</h2>
+                    <h3>Servicios GO</h2>
+                    <hr class="barra">
+                </div>
+            </div>
+            <div class="firma_empleado-contacto">
+                <div  class="firma_empleado-contacto_1">
+                    <a title="correo contacto" href="mailto:Go@dobetter.cl" target="_blank" style="text-decoration:none;">
+                    <div class="logo-text-1">
+                        <img src="./assets/images/logo-email.svg" class="firma_empleado-contacto_icono">
+                        <h4>GO@dobetter.cl</h4>
+                    </div>
+                    </a>
+                    <a title="telefono contacto" href="tel:+56934472522" target="_blank" style="text-decoration:none;">
+                    <div class="logo-text-1">
+                        <img src="./assets/images/logo-phone.svg" class="firma_empleado-contacto_icono">
+                        <h4>+569 3447 2522</h4>
+                    </div>
+                    </a>
+                </div>
+                
+                <div class="firma_empleado-contacto_2">
+                <a title="direccion de contacto" href="https://goo.gl/maps/TiVvSYn6ZuYmRUa88" target="_blank" style="text-decoration:none;">
+                    <div class="logo-text-2">
+                        <img src="./assets/images/logo-dire.svg" class="firma_empleado-contacto_icono">
+                        <h5>Marchant Pereira 367 Oficina 502</h5>
+
+                    </div>
+                </a>
+                <a title="direccion de contacto" href="https://goo.gl/maps/TiVvSYn6ZuYmRUa88" target="_blank" style="text-decoration:none;">
+                    <div class="logo-text-3">
+                        <h5>Providencia, Chile</h5>
+                    </div>
+                </a>
+                </div>
+                <div class="firma_empleado-redes">
+                    <a title="linkedin empresa" href="https://www.linkedin.com/company/10099703/admin/" target="_blank"" target="_blank" style="text-decoration:none;">
+                    <div class="redes">
+                        <img src="./assets/images/linkein.png" class="firma_empleado-contacto_icono_2">
+                    </div>
+                    </a>
+
+                    <a title="Facebook empresa" href="https://www.facebook.com/DoBetter.scm/" target="_blank"" target="_blank" style="text-decoration:none;">
+                    <div class="redes">
+                        <img src="./assets/images/fb.png" class="firma_empleado-contacto_icono_2">
+                    </div>
+                    </a>
+                    <div class="redes">
+                    <img src="./assets/images/logo-mano.svg" class="firma_empleado-contacto_icono_2"> 
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </firma>
+
+</body>
+</html>
